@@ -1,3 +1,4 @@
+package java8Features;
 import java.util.*;
 
 class Demo implements Runnable{
@@ -12,7 +13,7 @@ class Demo implements Runnable{
 	  
 }
 
-public class RunnableLambda {
+public class RunnablePrgrm {
 	
 
 	
@@ -33,7 +34,9 @@ public class RunnableLambda {
 		t1.start();
 		System.out.println("thread2....is running");
 			t2.start();
+			
 			System.out.println("thread3...is running");	
+			
 	}
 
 }
